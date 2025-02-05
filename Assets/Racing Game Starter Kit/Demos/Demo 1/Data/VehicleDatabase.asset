@@ -1,0 +1,771 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6884fd53887598e4fba39c6c72dcfefb, type: 3}
+  m_Name: VehicleDatabase
+  m_EditorClassIdentifier: 
+  vehicles:
+  - ModelName: 2101
+    BrandName: 'Vaz '
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 1
+    uniqueID: vaz2101
+    vehicle: {fileID: 1882158520574325688, guid: 43f56f1e6a827ce45a8f6297a544c012, type: 3}
+    aiVehicle: {fileID: 1770974532111347863, guid: 2c5fa5c590db3ce4e9f2d2a8928488d1, type: 3}
+    menuVehicle: {fileID: 3366472151555983353, guid: c7ff2bec204f747438409b93711c0715, type: 3}
+    topSpeed: 0.166
+    acceleration: 0.255
+    handling: 0.15
+    braking: 0.102
+    bodyMaterials:
+    - {fileID: 2100000, guid: 885e0e0c781f16b49baf4d90a5df030b, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 500
+  - ModelName: 2102
+    BrandName: 'Vaz '
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 1
+    uniqueID: vaz2102
+    vehicle: {fileID: 239758163648712437, guid: e7972862f6cda1049926794230aebb4a, type: 3}
+    aiVehicle: {fileID: 4761894642523250731, guid: 3ef89680e4f63da4e974ae119d085fd5, type: 3}
+    menuVehicle: {fileID: 2213031025708610553, guid: 3a17282d441441e48b094bc84423cd13, type: 3}
+    topSpeed: 0.121
+    acceleration: 0.083
+    handling: 0.166
+    braking: 0.045
+    bodyMaterials:
+    - {fileID: 2100000, guid: 72935392b144bc3408e769ffb5aaffee, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 22000
+  - ModelName: 2103
+    BrandName: 'Vaz '
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 1
+    uniqueID: vaz2103
+    vehicle: {fileID: 494634108579490093, guid: c67beec52cd2f50479adb50bc0879ee9, type: 3}
+    aiVehicle: {fileID: 4761894642523250731, guid: 3ef89680e4f63da4e974ae119d085fd5, type: 3}
+    menuVehicle: {fileID: 7507583594717369111, guid: befe75de0ef7aeb45800f970ea9d336a, type: 3}
+    topSpeed: 0.264
+    acceleration: 0.185
+    handling: 0.139
+    braking: 0.162
+    bodyMaterials:
+    - {fileID: 2100000, guid: 85807735ca3c1bb4b88137eac7a3627c, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 26000
+  - ModelName: Spark
+    BrandName: Chevy
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 2
+    uniqueID: spark
+    vehicle: {fileID: 2742738760435147916, guid: 2625238434f85bf429985618cda377f5, type: 3}
+    aiVehicle: {fileID: 7170132267454660558, guid: 845221f2f24db78448a5e459a369f61c, type: 3}
+    menuVehicle: {fileID: 2876332586443550587, guid: 9a6dc98c6e2165049b74d5a23f23e29a, type: 3}
+    topSpeed: 0.28
+    acceleration: 0.23
+    handling: 0.33
+    braking: 0.27
+    bodyMaterials:
+    - {fileID: 2100000, guid: 80f73c8355ceabd42920bd03393b550b, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 35000
+  - ModelName: 2104
+    BrandName: 'Vaz '
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 1
+    uniqueID: vaz2104
+    vehicle: {fileID: 3777772380897764027, guid: 2b1c2c796300eb74a9165c496ec45eb5, type: 3}
+    aiVehicle: {fileID: 8793262644462375148, guid: 180691957a213144494cf9d5e611aa72, type: 3}
+    menuVehicle: {fileID: 7684951920352383242, guid: 2bd3055e0fd1c614b97bc3997cdfa220, type: 3}
+    topSpeed: 0.204
+    acceleration: 0.146
+    handling: 0.089
+    braking: 0.105
+    bodyMaterials:
+    - {fileID: 2100000, guid: ab63be0d47625144ab91b9e17b24671b, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 31000
+  - ModelName: 2105
+    BrandName: 'Vaz '
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 1
+    uniqueID: vaz2105
+    vehicle: {fileID: 5747630221225356520, guid: 481b476b09b3c98449205d4bc0d30f13, type: 3}
+    aiVehicle: {fileID: 2644754580018452865, guid: 4da51614adb375f4faeca78f0c6ea70d, type: 3}
+    menuVehicle: {fileID: 3184784166159885281, guid: bbee724b65181a44db786e1ce2ba8111, type: 3}
+    topSpeed: 0.21
+    acceleration: 0.21
+    handling: 0.264
+    braking: 0.21
+    bodyMaterials:
+    - {fileID: 2100000, guid: 928d529e5686e8e4e923a5ef261fb71d, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 35000
+  - ModelName: 2106
+    BrandName: 'Vaz '
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 1
+    uniqueID: vaz2106
+    vehicle: {fileID: 4435506636125647062, guid: 611200733e3e2a54c9d22be358b9cc0b, type: 3}
+    aiVehicle: {fileID: 1563160104446906757, guid: d5fb6eaed1ed89841865e27d572840b5, type: 3}
+    menuVehicle: {fileID: 2972182365112282502, guid: 42bc92d65463cae499a5e5fff25caa0c, type: 3}
+    topSpeed: 0.172
+    acceleration: 0.131
+    handling: 0.139
+    braking: 0.121
+    bodyMaterials:
+    - {fileID: 2100000, guid: d99e4ea89060dda479d5e5dacb104a18, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 41000
+  - ModelName: 2107
+    BrandName: 'Vaz '
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 1
+    uniqueID: vaz2107
+    vehicle: {fileID: 7765826293347441718, guid: 118dc24b928d84e48ad87272170bf384, type: 3}
+    aiVehicle: {fileID: 4159041412715107260, guid: a388ea063dee8dc43ab1bfa6790801ae, type: 3}
+    menuVehicle: {fileID: 8296669127472805601, guid: 6735981bb793dc849a4359c102edd6df, type: 3}
+    topSpeed: 0.21
+    acceleration: 0.111
+    handling: 0.139
+    braking: 0.131
+    bodyMaterials:
+    - {fileID: 2100000, guid: e3b22ab4befcd3343b3e342c9979f7c7, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 45000
+  - ModelName: 2108
+    BrandName: 'Vaz '
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 2
+    uniqueID: vaz2108
+    vehicle: {fileID: 4543988154487341131, guid: 3724b6365d37bdc4ab50376ac7ffd24a, type: 3}
+    aiVehicle: {fileID: 3902060344893902705, guid: 8f7527bfaa5be904d81ccf38d136fcf3, type: 3}
+    menuVehicle: {fileID: 1863307948479189017, guid: 38677f733a6d9de4389d9fd4c2ce49f6, type: 3}
+    topSpeed: 0.261
+    acceleration: 0.197
+    handling: 0.139
+    braking: 0.239
+    bodyMaterials:
+    - {fileID: 2100000, guid: ec482ee569687684084ae3c1d8899728, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 52000
+  - ModelName: Nexia
+    BrandName: Daewlo
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 2
+    uniqueID: nexia1
+    vehicle: {fileID: 126711836387460349, guid: ff6aeec9c21273845b45f16760cccc87, type: 3}
+    aiVehicle: {fileID: 2547152972004684529, guid: 205b1d2ffbfdac745ab24ffc0fb6d493, type: 3}
+    menuVehicle: {fileID: 3020236273313445152, guid: a45f1a8dd81ac5a4ab78ff79ac473dcd, type: 3}
+    topSpeed: 0.278
+    acceleration: 0.193
+    handling: 0.131
+    braking: 0.131
+    bodyMaterials:
+    - {fileID: 2100000, guid: 3d1c92eed8c372c45b999704876e46c1, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 70000
+  - ModelName: 2109
+    BrandName: 'Vaz '
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 2
+    uniqueID: vaz2109
+    vehicle: {fileID: 5406962081497648201, guid: d46affad83f89424bab73fb1fc277298, type: 3}
+    aiVehicle: {fileID: 6658044732216114164, guid: d1d9e40464ba83e4d8d917276d55757c, type: 3}
+    menuVehicle: {fileID: 6374778298292344810, guid: cf8a6df6a57a4a2469125f53dad557e9, type: 3}
+    topSpeed: 0.338
+    acceleration: 0.213
+    handling: 0.139
+    braking: 0.175
+    bodyMaterials:
+    - {fileID: 2100000, guid: 6522d31975a020f408a7dbde96796384, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 57000
+  - ModelName: Nexia 2
+    BrandName: Daewlo
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 2
+    uniqueID: nexia2
+    vehicle: {fileID: 990010507909318351, guid: 6841db6ca7bc95541a0f40fb11541cc7, type: 3}
+    aiVehicle: {fileID: 5893360408976228882, guid: 5584167461a95eb4fbf317d93c13563e, type: 3}
+    menuVehicle: {fileID: 9117761736624369567, guid: 6a060438428ee734cbc10d012a1b860e, type: 3}
+    topSpeed: 0.281
+    acceleration: 0.219
+    handling: 0.131
+    braking: 0.131
+    bodyMaterials:
+    - {fileID: 2100000, guid: 536901e86e7af374998e0448b450f600, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 90000
+  - ModelName: 21099
+    BrandName: 'Vaz '
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 2
+    uniqueID: vaz21099
+    vehicle: {fileID: 8701499001224300839, guid: e8155cccf5f328846aa283f52b09359b, type: 3}
+    aiVehicle: {fileID: 5254244921590804393, guid: c8a044da5e00fd84b826552f170e4ae3, type: 3}
+    menuVehicle: {fileID: 2677181628250784189, guid: 09cf76776f5f7af44a8d804186ae86ae, type: 3}
+    topSpeed: 0.258
+    acceleration: 0.194
+    handling: 0.139
+    braking: 0.175
+    bodyMaterials:
+    - {fileID: 2100000, guid: 470a0bd6f27b3044e871e3372f861635, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 62000
+  - ModelName: Onix
+    BrandName: Chevy
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 2
+    uniqueID: onix
+    vehicle: {fileID: 3272469886342335545, guid: f55b4c284bc39f244885acef992f6a7c, type: 3}
+    aiVehicle: {fileID: 2485961658616219031, guid: 6f5ffd494b5853c4b9d274ed0b5d33dc, type: 3}
+    menuVehicle: {fileID: 2044642053911238997, guid: 680fe0fb8b91e994c865cac6dc336adf, type: 3}
+    topSpeed: 0.25
+    acceleration: 0.237
+    handling: 0.212
+    braking: 0.294
+    bodyMaterials:
+    - {fileID: 2100000, guid: 75b29fd50d81345479b0f40b9056ccb1, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 120000
+  - ModelName: 2110
+    BrandName: 'Vaz '
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 2
+    uniqueID: vaz2110
+    vehicle: {fileID: 6633454001109519576, guid: 24d1da4c5305ea249b518eee64532bbc, type: 3}
+    aiVehicle: {fileID: 5645168443782068828, guid: 5c667926dccb3e24598848c83d38fa7d, type: 3}
+    menuVehicle: {fileID: 6052891381663602697, guid: a7794a2b4d48a7a468082fedcecb5a3d, type: 3}
+    topSpeed: 0.21
+    acceleration: 0.213
+    handling: 0.255
+    braking: 0.22
+    bodyMaterials:
+    - {fileID: 2100000, guid: 23e52cd152a5fb445b47a137fa7d67d9, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 65000
+  - ModelName: 2114
+    BrandName: 'Vaz '
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Stock
+    CarClass: 2
+    uniqueID: vaz2114
+    vehicle: {fileID: 8068339165815663927, guid: 60529f3b6d757cb478ba3a211e4f3416, type: 3}
+    aiVehicle: {fileID: 5748010341422565881, guid: 4526c8961102eb9438ca9cdd76a610a9, type: 3}
+    menuVehicle: {fileID: 8454940682798675587, guid: 0ae88794eeb7de54e9c53ce426719384, type: 3}
+    topSpeed: 0.258
+    acceleration: 0.264
+    handling: 0.139
+    braking: 0.194
+    bodyMaterials:
+    - {fileID: 2100000, guid: 23e52cd152a5fb445b47a137fa7d67d9, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 72000
+  - ModelName: Gentra
+    BrandName: Chevy
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Sport
+    CarClass: 3
+    uniqueID: gentra
+    vehicle: {fileID: 2247526905186259391, guid: bc3557c4d6076c24594d5a9dcae9fbc0, type: 3}
+    aiVehicle: {fileID: 6429560570412827667, guid: 1d1973b7cb8e81b4286092e972726ff1, type: 3}
+    menuVehicle: {fileID: 2668613792893747766, guid: 2a2f445a920cabc4a8bbb80e8ac28b17, type: 3}
+    topSpeed: 0.266
+    acceleration: 0.31
+    handling: 0.215
+    braking: 0.275
+    bodyMaterials:
+    - {fileID: 2100000, guid: 9f40beb8904e7db4daa992c76437269d, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 140000
+  - ModelName: 412
+    BrandName: Merskvich
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Sport
+    CarClass: 3
+    uniqueID: 412sport
+    vehicle: {fileID: 8536682226688543134, guid: c8a99bff3b06a2540b702aaeea1fc3b8, type: 3}
+    aiVehicle: {fileID: 2249196125293776216, guid: 72de95536c8df614290edd6ce869ab48, type: 3}
+    menuVehicle: {fileID: 8051119454742772612, guid: 92a80a4feccf0b3458f3ed7fb21b0a9e, type: 3}
+    topSpeed: 0.395
+    acceleration: 0.278
+    handling: 0.376
+    braking: 0.417
+    bodyMaterials:
+    - {fileID: 2100000, guid: 193af925bfe6bc8429c642bafb9dd2bb, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 180000
+  - ModelName: 2101
+    BrandName: Vaz
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Sport
+    CarClass: 3
+    uniqueID: 2101sport
+    vehicle: {fileID: 9133104877143826034, guid: 90bd38649fce1c54a8c4cf0eddfa6455, type: 3}
+    aiVehicle: {fileID: 1594767356443690712, guid: 7f1557465dea50b408f46a4f5ae09809, type: 3}
+    menuVehicle: {fileID: 3093991782428295197, guid: 26bcb14074f52274bb8edce5569566c7, type: 3}
+    topSpeed: 0.554
+    acceleration: 0.42
+    handling: 0.36
+    braking: 0.545
+    bodyMaterials:
+    - {fileID: 2100000, guid: 8c69340878978514daf43fa6295970a1, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 140000
+  - ModelName: 2106
+    BrandName: 'Vaz '
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Sport
+    CarClass: 3
+    uniqueID: vaz2106sport
+    vehicle: {fileID: 154085337287983757, guid: bf12ad82fde471b46ba59ffef6a9f2b8, type: 3}
+    aiVehicle: {fileID: 6006385351697272772, guid: 9a75f8e2168a49d44b2272a8585e280e, type: 3}
+    menuVehicle: {fileID: 2671762547325445294, guid: 570fbce4e79345749ad12d708883a646, type: 3}
+    topSpeed: 0.465
+    acceleration: 0.392
+    handling: 0.293
+    braking: 0.226
+    bodyMaterials:
+    - {fileID: 2100000, guid: 02dbb58fbae070d4e9800c0de48e7ba4, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 185000
+  - ModelName: 2108
+    BrandName: 'Vaz '
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Sport
+    CarClass: 3
+    uniqueID: vaz2108sport
+    vehicle: {fileID: 3505898586389563813, guid: f0242c418940cc340bc52f640422f9fd, type: 3}
+    aiVehicle: {fileID: 4625096916565625101, guid: d0073ab9dc3151d4da164e107a8a9003, type: 3}
+    menuVehicle: {fileID: 7735398038794902737, guid: 2be632733d6871c46b1204d87692f768, type: 3}
+    topSpeed: 0.478
+    acceleration: 0.392
+    handling: 0.328
+    braking: 0.277
+    bodyMaterials:
+    - {fileID: 2100000, guid: e634910b4c71274409d86577f7aea5b2, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 225000
+  - ModelName: 2410
+    BrandName: Gaz
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Sport
+    CarClass: 3
+    uniqueID: gaz24sport
+    vehicle: {fileID: 8757762938784072898, guid: 319ddcd560f55a142b2cfdfe4dddcf16, type: 3}
+    aiVehicle: {fileID: 1444382813228119067, guid: 02c3275830cbebe43b62be8566482f0c, type: 3}
+    menuVehicle: {fileID: 5645358225380162969, guid: 5720067c64c53ba4e8561aaf3e02525d, type: 3}
+    topSpeed: 0.494
+    acceleration: 0.303
+    handling: 0.258
+    braking: 0.545
+    bodyMaterials:
+    - {fileID: 2100000, guid: 6ffce645aac7045418a9cccf06fa84ae, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 310000
+  - ModelName: Grant
+    BrandName: Lada
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Sport
+    CarClass: 3
+    uniqueID: grantsport
+    vehicle: {fileID: 7456827219566120953, guid: 39b1deed2905f2a418b5387f306ac7db, type: 3}
+    aiVehicle: {fileID: 8426874705155927998, guid: 77ea79b6f79d48842a83cf43d1029334, type: 3}
+    menuVehicle: {fileID: 2370426665640005230, guid: 7d7f72f5225df9341b8545effbfce2d3, type: 3}
+    topSpeed: 0.487
+    acceleration: 0.42
+    handling: 0.376
+    braking: 0.417
+    bodyMaterials:
+    - {fileID: 2100000, guid: 935300f1fb882784a898eced8017defd, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 370000
+  - ModelName: Vesta
+    BrandName: Lada
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Sport
+    CarClass: 3
+    uniqueID: vestasport
+    vehicle: {fileID: 1851885834662077764, guid: 48531803746e38f469bf17ec6e5018f2, type: 3}
+    aiVehicle: {fileID: 2820910425041860436, guid: 67116654c971c394da486f0aa9ac3fb9, type: 3}
+    menuVehicle: {fileID: 5837457619359138993, guid: 2530b9c3dba63c24baf87022364b7d53, type: 3}
+    topSpeed: 0.575
+    acceleration: 0.461
+    handling: 0.388
+    braking: 0.41
+    bodyMaterials:
+    - {fileID: 2100000, guid: 077086b7259bf924b9fbbf522ecf813c, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 450000
+  - ModelName: Kalina
+    BrandName: Lada
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Sport
+    CarClass: 3
+    uniqueID: kalinasport
+    vehicle: {fileID: 8713282839183549829, guid: 7ea1f50acdc136d49b6141d53c41a6a5, type: 3}
+    aiVehicle: {fileID: 3297821605928684906, guid: a4e8b0cb33b38294983149a6119e8f6a, type: 3}
+    menuVehicle: {fileID: 5775422536580168110, guid: 88fcac327260d774cbd4585382da1ae0, type: 3}
+    topSpeed: 0.465
+    acceleration: 0.358
+    handling: 0.325
+    braking: 0.329
+    bodyMaterials:
+    - {fileID: 2100000, guid: f62ad9ebf7af3fe418a0b5e6403ccec7, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 520000
+  - ModelName: B2
+    BrandName: Turbo
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Turbo
+    CarClass: 4
+    uniqueID: b2sport
+    vehicle: {fileID: 7758094468209782541, guid: df0fa446a338bf64db7f85da12952aaa, type: 3}
+    aiVehicle: {fileID: 2788150642344194795, guid: 9edac103df7f5cf48809f0f4bfa3891b, type: 3}
+    menuVehicle: {fileID: 3767617211938599094, guid: b5e5897fbc2e8e04ba589e98d19ad973, type: 3}
+    topSpeed: 0.726
+    acceleration: 0.554
+    handling: 0.5
+    braking: 0.573
+    bodyMaterials:
+    - {fileID: 2100000, guid: 04cb3b7899d9d61498ab5e3346531bd7, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 800000
+  - ModelName: Revolution
+    BrandName: Lada
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Turbo
+    CarClass: 4
+    uniqueID: ladarev
+    vehicle: {fileID: 1831942377215081156, guid: ce970ae8a51611246917dd1c91a3666c, type: 3}
+    aiVehicle: {fileID: 1726955199003332211, guid: 01e85a8e87cf0f248805573e7f1ef804, type: 3}
+    menuVehicle: {fileID: 3663292767691996161, guid: 763b85adf6018044eb8af8dc480d4e15, type: 3}
+    topSpeed: 0.487
+    acceleration: 0.42
+    handling: 0.376
+    braking: 0.417
+    bodyMaterials:
+    - {fileID: 2100000, guid: 9bd04a3a9d50306498663896d79d1583, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 1200000
+  - ModelName: BR 3
+    BrandName: SMP
+    year: 1985
+    price: 30000
+    TopSpeed: "210  \u043A\u043C/\u0447"
+    Accel: 7.1
+    BHP: 195
+    Mass: 900
+    EngineType: R4 turbo
+    DriveTrain: FR
+    CarClassNames: Turbo
+    CarClass: 4
+    uniqueID: br3
+    vehicle: {fileID: 1741836722047038039, guid: 564f9d58b09c1e04ebbee5b5bcd1d2bc, type: 3}
+    aiVehicle: {fileID: 4007687591232029427, guid: 625e6091c0b6ee042ad7c9b3cbbd3cb3, type: 3}
+    menuVehicle: {fileID: 8839022614170353689, guid: 550322d20b331e54ca2b468809e18382, type: 3}
+    topSpeed: 0.708
+    acceleration: 0.649
+    handling: 0.59
+    braking: 0.586
+    bodyMaterials:
+    - {fileID: 2100000, guid: fcc750d9aa96b7645b9c68b4cf1f507b, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 1500000
